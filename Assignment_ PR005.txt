@@ -1,0 +1,17 @@
+Questions:
+1. Create an application and integrate sentry with it. Push error messages to the sentry
+
+2. Mention commands for updating a staging with a particular branch for a service
+   Git fetch origin
+   Git checkout staging
+   Git pull origin <branch-name>
+   
+3. Command for starting a staging
+   practl login
+   practl init
+   practl get stagings
+   practl start staging <staging_name>
+   practl stop staging <staging_name>
+   
+4. Create a staging with the services: Accounts, nav, Communicator, Ray-app, Ray-api, QMS, Store
+The deployment of one product will fail, explain why the deployment has failed
